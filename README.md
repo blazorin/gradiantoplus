@@ -1,5 +1,5 @@
 # Gradianto Plus
-A Visual Studio theme inspired by the awarded Jetbrains theme "**Gradianto Deep Ocean**"
+A Visual Studio theme inspired by the awarded Jetbrains theme "**[Gradianto Deep Ocean](https://plugins.jetbrains.com/plugin/12334-gradianto)**"
 
 ![alt text](https://i.imgur.com/AHE7vhP.png)
 
