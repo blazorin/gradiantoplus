@@ -17,15 +17,15 @@ Download the syntax highliting manager extension **"Carnato"** by [Andrew Hall](
 
 **VS 2019** => https://marketplace.visualstudio.com/items?itemName=ryzngard.carnation-colorpicker
 
-###1. Open Carnato Window
+### 1. Open Carnato Window
 
 ![Open Carnato Window](https://i.imgur.com/1pIJHmT.png)
 
 
-###2. Import the .vssettings file
+### 2. Import the .vssettings file
 
 ![Import .vssettings](https://i.imgur.com/UwCjk4D.png)
 
-###3. Enjoy
+### 3. Enjoy
 
 
