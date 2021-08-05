@@ -11,7 +11,7 @@ Supports:
 
 ## Get started
 
-Download the syntax highliting manager extension **"Carnato"** by [Andrew Hall](https://github.com/ryzngard/Carnation) from the Visual Studio Marketplace:
+Install the syntax highliting manager extension **"Carnato"** by [Andrew Hall](https://github.com/ryzngard/Carnation) from the Visual Studio Marketplace:
 
 **VS 2022** => https://marketplace.visualstudio.com/items?itemName=ryzngard.Carnation2022020
 
