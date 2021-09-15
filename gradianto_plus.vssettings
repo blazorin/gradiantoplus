@@ -100,21 +100,6 @@
               <Item Name="deltadiff.remove.word" Foreground="0x006666FF" Background="0x0000003C"/>
               <Item Name="deltadiff.add.word" Foreground="0x003C9276" Background="0x004D5E26"/>
               <Item Name="deltadiff.overview.color" Foreground="0x00424042" Background="0x00252925"/>
-              <Item Name="HTML Attribute" Foreground="0x00FEDC9C" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Attribute Value" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Comment" Foreground="0x004AA657" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Element Name" Foreground="0x00D69C56" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Entity" Foreground="0x00A0A000" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Operator" Foreground="0x00B4B4B4" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Server-Side Script" Foreground="0x0032B8D8" Background="0x01000001" BoldFont="No"/>
-              <Item Name="HTML Tag Delimiter" Foreground="0x00808080" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript Keyword" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript Comment" Foreground="0x004AA657" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript Operator" Foreground="0x00B4B4B4" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript Number" Foreground="0x00A8CEB5" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript String" Foreground="0x00859DD6" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript Identifier" Foreground="0x00FFFFFF" Background="0x01000001" BoldFont="No"/>
-              <Item Name="VBScript Function Block Start" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
               <Item Name="MarkerFormatDefinition/ScrollBarComment" Background="0x0032BE00"/>
               <Item Name="MarkerFormatDefinition/FilteredScrollBarComment" Background="0x007AFF48"/>
               <Item Name="MarkerFormatDefinition/CommentMark" Foreground="0x00DCDCDC" Background="0x00E6D8AD"/>
@@ -128,6 +113,7 @@
               <Item Name="Test Summary - Label" Foreground="0x00DCDCDC" Background="0x01000001" BoldFont="No"/>
               <Item Name="Test Summary - Stack" Foreground="0x004646FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="Test Summary - No Source" Foreground="0x00DCDCDC" Background="0x01000001" BoldFont="No"/>
+              <Item Name="Test Summary - Diagnostic" Foreground="0x007B70FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="data.tools.diff.remove.line" Foreground="0x00DCDCDC" Background="0x0087FFFF"/>
               <Item Name="data.tools.diff.add.line" Foreground="0x00DCDCDC" Background="0x00A8A8FF"/>
               <Item Name="data.tools.diff.remove.word" Foreground="0x00DCDCDC" Background="0x000AD7FA"/>
@@ -215,6 +201,11 @@
               <Item Name="xml literal - processing instruction" Foreground="0x00AEAEAE" Background="0x01000001" BoldFont="No"/>
               <Item Name="xml literal - text" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
               <Item Name="brace matching" Foreground="0x00DCDCDC" Background="0x0083450E" BoldFont="No"/>
+              <Item Name="CppSuggestedActionFormat" Foreground="0x00278B27"/>
+              <Item Name="C/C++ User Keywords" Foreground="0x00D69C56" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppControlKeywordSyntacticTokenFormat" Foreground="0x00DFA0D8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppStringEscapeCharacterSyntacticTokenFormat" Foreground="0x008FD6FF" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppStringDelimiterCharacterSyntacticTokenFormat" Foreground="0x00BBC9E8" Background="0x01000001" BoldFont="No"/>
               <Item Name="JSON Property Name" Foreground="0x007DBAD7" Background="0x01000001" BoldFont="No"/>
               <Item Name="CSS Comment" Foreground="0x004AA657" Background="0x01000001" BoldFont="No"/>
               <Item Name="CSS Keyword" Foreground="0x00197FCA" Background="0x01000001" BoldFont="No"/>
@@ -222,13 +213,54 @@
               <Item Name="CSS Property Name" Foreground="0x00FEDC9C" Background="0x01000001" BoldFont="No"/>
               <Item Name="CSS Property Value" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
               <Item Name="CSS String Value" Foreground="0x00859DD6" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Attribute Name" Foreground="0x00FEDC9C" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Attribute Value" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Comment" Foreground="0x004AA657" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Element Name" Foreground="0x00D69C56" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Entity" Foreground="0x00A0A000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Operator" Foreground="0x00B4B4B4" Background="0x01000001" BoldFont="No"/>
+              <Item Name="HTML Server-Side Script" Foreground="0x0032B8D8" Background="0x0000FFFF" BoldFont="No"/>
+              <Item Name="HTML Tag Delimiter" Foreground="0x00808080" Background="0x01000001" BoldFont="No"/>
               <Item Name="RazorCode" Foreground="0x00DCDCDC" Background="0x00505050" BoldFont="No"/>
               <Item Name="RazorTagHelperAttribute" Foreground="0x00A97497" Background="0x01000001" BoldFont="No"/>
               <Item Name="RazorTagHelperElement" Foreground="0x00197FD4" Background="0x01000001" BoldFont="No"/>
               <Item Name="RazorDirective" Foreground="0x00197FD4" Background="0x01000001" BoldFont="No"/>
               <Item Name="RazorDirectiveAttribute" Foreground="0x00E699A6" Background="0x01000001" BoldFont="No"/>
-              <Item Name="RazorComponentElement" Foreground="0x00969600" Background="0x01000001" BoldFont="No"/>
+              <Item Name="RazorComponentElement" Foreground="0x00197FD4" Background="0x01000001" BoldFont="No"/>
               <Item Name="RazorComponentAttribute" Foreground="0x00E699A6" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppMacroSemanticTokenFormat" Foreground="0x00FFB7BE" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppEnumSemanticTokenFormat" Foreground="0x00A3D7B8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppGlobalVariableSemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppLocalVariableSemanticTokenFormat" Foreground="0x00FEDC9C" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppParameterSemanticTokenFormat" Foreground="0x009A9A9A" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppTypeSemanticTokenFormat" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppRefTypeSemanticTokenFormat" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppValueTypeSemanticTokenFormat" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppFunctionSemanticTokenFormat" Foreground="0x00AADCDC" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppMemberFunctionSemanticTokenFormat" Foreground="0x00AADCDC" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppMemberFieldSemanticTokenFormat" Foreground="0x00DADADA" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppStaticMemberFunctionSemanticTokenFormat" Foreground="0x00AADCDC" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppStaticMemberFieldSemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppPropertySemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppEventSemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppClassTemplateSemanticTokenFormat" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppGenericTypeSemanticTokenFormat" Foreground="0x00B0C94E" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppFunctionTemplateSemanticTokenFormat" Foreground="0x00AADCDC" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppLabelSemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppUDLRawSemanticTokenFormat" Foreground="0x00DADADA" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppUDLNumberSemanticTokenFormat" Foreground="0x00A8CEB5" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppUDLStringSemanticTokenFormat" Foreground="0x00859DD6" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppOperatorSemanticTokenFormat" Foreground="0x00B4B4B4" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppMemberOperatorSemanticTokenFormat" Foreground="0x00B4B4B4" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppNewDeleteSemanticTokenFormat" Foreground="0x00D69C56" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript Keyword" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript Comment" Foreground="0x004AA657" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript Operator" Foreground="0x00B4B4B4" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript Number" Foreground="0x00A8CEB5" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript String" Foreground="0x00859DD6" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript Identifier" Foreground="0x00FFFFFF" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VBScript Function Block Start" Foreground="0x00C8C8C8" Background="0x01000001" BoldFont="No"/>
               <Item Name="FSharp.Function" Foreground="0x00AADCDC" Background="0x01000001" BoldFont="No"/>
               <Item Name="FSharp.MutableVar" Foreground="0x001CD2FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="FSharp.Printf" Foreground="0x00B0DC4E" Background="0x01000001" BoldFont="No"/>
