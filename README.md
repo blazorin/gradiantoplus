@@ -31,7 +31,4 @@ Install the syntax highliting manager extension **"Carnation"** by [Andrew Hall]
 
 ### Keep track of new updates
 
-Give a star to [Gradianto Plus by 3DSX](https://github.com/3DSX/gradiantoplus) (Alberto Romero)
-[@vayacodigo on Twitter](https://twitter.com/vayacodigo)
-
 Feel free to open an issue if you think something should(not) be like it is.
